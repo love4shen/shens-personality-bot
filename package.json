@@ -1,0 +1,23 @@
+{
+  "name": "shens-personality-bot",
+  "version": "1.0.0",
+  "description": "Shen's Personality Bot",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "config": "^1.24.0",
+    "crypto": "^0.0.3",
+    "express": "^4.14.0",
+    "https": "^1.0.0",
+    "ngrok": "^2.2.3",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node index.js",
+    "ngrok": "./node_modules/ngrok/bin/ngrok http 5000"
+  },
+  "keywords": [],
+  "author": "Yizheng Shen <love4shen@gmail.com>",
+  "license": "ISC"
+}
